@@ -1,4 +1,4 @@
-# IT-SCHOOL - A e-learning platform
+# Learn Affordable A e-learning platform
 ## This website featuring a lot of paid courses
 ### Website made by using:
     * Html
@@ -7,7 +7,6 @@
     * JavaScript
     * React
 
-### Website link [IT-SCHOOL](https://it-school73.netlify.app/). 
 
 
 # Getting Started with Create React App
