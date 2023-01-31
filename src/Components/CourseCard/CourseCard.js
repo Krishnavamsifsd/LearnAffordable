@@ -1,5 +1,6 @@
 import React from "react";
 import { Card } from "react-bootstrap";
+import "./CoursesCard.css";
 
 const CoursesCard = ({ course }) => {
   const { name, background, price, instructor, email, enrollUser, company } = course;
@@ -8,7 +9,7 @@ const CoursesCard = ({ course }) => {
   };
   return (
     <article className="col col-lg-4" lg="4" data-aos="zoom-out-up">
-      <Card className="my-3 mx-auto shadow">
+      <Card className="my-3 mx-auto shadow course-card">
         <Card.Img variant="top" src={background} />
         <Card.Body>
           <Card.Title className="fw-bold">{name}</Card.Title>
@@ -32,10 +33,10 @@ const CoursesCard = ({ course }) => {
             </div>
           </div>
           <button
-            className="mt-3 btn btn-dark w-100 text-capitalize fs-6 mt-1"
+            className="mt-3 btn btn-dark w-100 text-capitalize fs-6 mt-1 button-card"
             onClick={sendMessage}
           >
-            <i className="fas fa-cart-plus me-2"></i>
+            <i className="fas fa-cart-plus me-2 "></i>
             Enroll Now
           </button>
         </Card.Body>

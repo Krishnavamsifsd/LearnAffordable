@@ -5,15 +5,21 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-family: 'Poppins', sans-serif;
-}
-
-body {
     box-sizing: border-box;
-    overflow-x: hidden
+    overflow-x: hidden;
 }
-
+@media (max-width: 767px) {
+    body,
+    .card,
+    .bgImg {
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+  
+  
 .card img {
-    height: 238px
+    height: 238px;
 }
 
 .bgImg {
@@ -21,5 +27,11 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
-    background-attachment: fixed
-};
+    background-attachment: fixed;
+}
+
+@media (max-width: 767px) {
+    .card img {
+        height: auto;
+    }
+}

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Container, Row, Spinner } from "react-bootstrap";
 import CourseCard from "../CourseCard/CourseCard";
+import "./Coursesfile.css";
 
 const Courses = ({ item }) => {
     const [course, setCourse] = useState([]);
@@ -17,7 +18,7 @@ const Courses = ({ item }) => {
     }, []);
 
     return (
-        <Container>
+        <Container className="color-bg">
             
             <Row className="mt-3">
                 {loading ? (
