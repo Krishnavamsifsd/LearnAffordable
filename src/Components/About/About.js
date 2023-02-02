@@ -15,7 +15,7 @@ const About = () => {
             <h3 className='text-center'>ABOUT US</h3>
             <div className="py-3">
                 <h4>Major Goals :</h4>
-                <p>The principal mission of online learning at LEARN AFFORDABLE is to enhance student access to the best courses they need. Of equal importance, LEARN AFFORDABLE online education is intended to help students acquire the technical skills and online learning strategies important to the pursuit of their academic and career goals. By developing and teaching online courses, IT-SCHOOL faculty also acquire new instructional skills important to their professional growth and development. The IT-SCHOOL is committed to providing students and faculty the support and resources they need to succeed as participants in online education.</p>
+                <p>The principal mission of online learning at LEARN AFFORDABLE is to enhance student access to the best courses they need. Of equal importance, LEARN AFFORDABLE online education is intended to help students acquire the technical skills and online learning strategies important to the pursuit of their academic and career goals. By developing and teaching online courses, LEARN AFFORDABLE faculty also acquire new instructional skills important to their professional growth and development. The LEARN AFFORDABLE is committed to providing students and faculty the support and resources they need to succeed as participants in online education.</p>
             </div>
             <div className="py-3">
                 <h4 className='text-center'>MEET OUR INSTRUCTOR'S</h4>
