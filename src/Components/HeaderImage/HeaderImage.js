@@ -1,13 +1,13 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-
-const HeaderImage = ({title, button}) => {
+import "./Headerimg.css"
+const HeaderImage = ({ title, button }) => {
     return (
         <div>
             <Row
                 data-aos="zoom-out-up"
-                className="d-flex align-items-center bgImg"
+                className="header-row d-flex align-items-center bgImg"
                 style={{ height: "600px" }}
             >
                 <Col md={6} className="ms-5">
