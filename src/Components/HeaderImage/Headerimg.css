@@ -1,0 +1,19 @@
+.header-row {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media (max-width: 991px) {
+    .header-row {
+      height: 60vh;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .header-row {
+      height: 40vh;
+    }
+  }
+  
