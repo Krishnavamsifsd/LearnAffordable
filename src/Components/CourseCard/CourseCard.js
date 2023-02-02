@@ -13,7 +13,7 @@ const CoursesCard = ({ course }) => {
         <Card.Img variant="top" src={background} />
         <Card.Body>
           <Card.Title className="fw-bold">{name}</Card.Title>
-          <Card.Title>Price: ${price}</Card.Title>
+          <Card.Title>Price: {price}</Card.Title>
           <div className="fw-light">
             <small>Company: {company}</small> <br />
             <small>Instructor: {instructor}</small> <br />
