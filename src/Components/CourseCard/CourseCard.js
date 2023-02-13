@@ -5,7 +5,7 @@ import "./CoursesCard.css";
 const CoursesCard = ({ course }) => {
   const { name, background, price, instructor, email, enrollUser, company } = course;
   const sendMessage = () => {
-  window.location.href = `https://t.me/ccbpaccountforsale?text=I%20am%20interested%20in%20enrolling%20in%20${name}%20course%20offered%20by%20${company}`;
+  window.location.href = `https://t.me/ccbpaccountforsale?start=I%20am%20interested%20in%20enrolling%20in%20${name}%20course%20offered%20by%20${company}`;
 };
 
   return (
