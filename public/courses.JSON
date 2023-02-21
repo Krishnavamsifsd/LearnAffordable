@@ -5,14 +5,14 @@
       "isActive": false,
       "price": 4000,
       "card_picture": "https://picsum.photos/200/300",
-      "background": "https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/60b110bfbebda5230dae8d3e_succes%20review%205.png",
-      "name": "CCBP 4.0 MERN Stack",
-      "company": "NXTWAVE",
+      "background": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0HYumJ-adUUU3vp4-gZl27hRUgODZ5ao1Gg&usqp=CAU",
+      "name": "Datastructures and Algorithms",
+      "company": "Geeksforgeeks",
       "email": "vancemercado@supremia.com",
       "phone": "+880 (898) 487-2268",
       "descriptopn": "Full stack webdevolepment with MERN STACk ",
       
-      "instructor": "Mr. Rahul Atuluri",
+      "instructor": "Mr. Ravi",
       "enrollUser": 2139
     },
     {
